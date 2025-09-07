@@ -1,4 +1,4 @@
-//read marks of five subjects and print division
+//read marks of five subjects and print percentage
 #include <stdio.h>
 int main()
 {
@@ -20,18 +20,7 @@ int main()
     printf("social marks=%f\n",soc);
     printf("hindi marks=%f\n",hindi);
     printf("englsih marks=%f\n",eng);
-    if(percentage >= 90) {
-        printf("your division=A \n");
-    }
-    else if(percentage>=80 && percentage<90)
-    {
-        printf("your division=B \n");
-    }
-    else if(percentage>=70 && percentage<80){
-        printf("your division=C \n");
-    }
-    else if(percentage>=60 && percentage<70){
-        printf("your division=D \n");
-    }
+    printf("total marks=%f \n",sum);
+    printf("percentage : %f \n",percentage);
     return 0;
 }
